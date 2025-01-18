@@ -15,7 +15,31 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 0vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.App-header-content{
+  margin: 30px;
+  min-width: 900px;
+  width: 66%;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: end;
+}
+#sendFuckBtn{
+  width: 180px;
+  height: 45px;
+  background-color: rgb(219, 143, 30);
+  
+}
+
+.App-main{
+  background-color: #282c34;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,11 +52,26 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#connectBtn{
+  margin-bottom: 30px;
 }
+
+#Fuck{
+  margin-top:-40px;
+  margin-bottom: 20px;
+}
+
+.social{
+  margin-bottom: 15px;
+}
+.imgLinkSocial{
+  width: 40px;
+  margin: 10px;
+}
+
+#CA{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: calc(10px + 1vmin);
+}
+
