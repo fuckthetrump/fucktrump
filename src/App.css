@@ -24,7 +24,7 @@
 }
 .App-header-content{
   margin: 30px;
-  min-width: 900px;
+  margin-right: 10px;
   width: 66%;
   /* background-color: #fff; */
   display: flex;
