@@ -32,7 +32,7 @@ const MainContent = () => {
                         </a>
                     </div>
 
-                    <h1 id='CA'>$FT CA: soon</h1>
+                    <h1 id='CA'>$FT CA: FgRXWZXrucn1hwDwgYpwPpDnpVyKRoKDpgL4XrvDpump</h1>
 
 
                 </div>
