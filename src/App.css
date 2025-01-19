@@ -21,14 +21,16 @@
   align-items: center;
   justify-content: center;
   color: white;
+  
 }
 .App-header-content{
   margin: 30px;
-  margin-right: 10px;
-  width: 66%;
   /* background-color: #fff; */
   display: flex;
   justify-content: end;
+  align-items: start;
+  flex-direction: row;
+  max-height: 50px;
 }
 .headerBtn{
   background-color: rgb(219, 143, 30);
@@ -47,8 +49,59 @@
   padding: 0 24px;
   border-radius: 4px;
 
+  overflow: visible;
+
+
 }
 
+#solscan{
+  text-decoration: none;
+  color: white;
+}
+#solscan:hover{
+  color: rgb(170, 168, 168);
+}
+
+#fuckBtnSend{
+  width: 200px;
+  height: 80px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border: 0;
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+#fuckBtnSend:hover{
+  background-color: rgb(219, 110, 7);
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+
+
+}
+.navLinkBtn{
+  margin-left: -110px;
+  display: flex;
+  flex-direction: row;
+
+}
+#sendFuck{
+  text-decoration: none;
+  content: none;
+}
+#arrow{
+  margin-right: -40px;
+}
+
+a{
+  text-decoration: none;
+}
+a .headerBtn:hover {
+  background-color: rgb(163, 100, 6);
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+
+}
 
 .App-main{
   background-color: #282c34;
@@ -60,7 +113,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-main-second{
+  margin: 0;
+  background-color: #282c34;
 
+}
 .App-link {
   color: #61dafb;
 }

@@ -33,11 +33,18 @@ const MainContent = () => {
                     </div>
 
                     <h1 id='CA'>$FT CA: soon</h1>
+
+
                 </div>
             </div>
-            
-            <div className='App-main'>
 
+            <div className='App-main' style={{marginTop:"-55vh"}}>
+                <h4>
+                    $Trump drained liquidity from solana memecoin market! We gotta fight with it
+                </h4>
+                <h4 style={{margin:"0"}}>
+                    Make Solana Great Again!
+                </h4>
             </div>
         </>
     )
