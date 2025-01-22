@@ -24,12 +24,6 @@ const MainContent = () => {
                         <a href='https://x.com/FuckTrumpMeme' target="_blank" rel="noopener noreferrer">
                             <img className='imgLinkSocial' src={twitter} alt="" />
                         </a>
-                        <a href='https://github.com/fuckthetrump' target="_blank" rel="noopener noreferrer">
-                            <img className='imgLinkSocial' src={github} alt="" />
-                        </a>
-                        <a href='https://t.me/FuckTrumpMemecoin' target="_blank" rel="noopener noreferrer">
-                            <img className='imgLinkSocial' src={telegram} alt="" />
-                        </a>
                     </div>
 
                     <h1 id='CA'>$FT CA: soon</h1>
