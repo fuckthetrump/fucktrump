@@ -43,7 +43,7 @@ const SendMessage = () => {
             </div>
 
 
-            <div className='App-main'>
+            <div className='App-main' style={{minHeight: "15vh"}}>
 
             </div>
         </>

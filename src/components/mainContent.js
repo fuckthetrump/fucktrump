@@ -26,13 +26,13 @@ const MainContent = () => {
                         </a>
                     </div>
 
-                    <h1 id='CA'>$FT CA: soon</h1>
+                    <h1 id='CA'>$FT CA: GvJkUuLWfWaY2JAycBj733Gox7jC4XTVPJDvFrrBpump</h1>
 
 
                 </div>
             </div>
 
-            <div className='App-main' style={{marginTop:"-55vh"}}>
+            <div className='App-main' style={{marginTop:"-55vh" }}>
                 <h4>
                     $Trump drained liquidity from solana memecoin market! We gotta fight with it
                 </h4>
